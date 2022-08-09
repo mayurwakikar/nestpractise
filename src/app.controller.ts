@@ -33,6 +33,10 @@ export class AppController {
     return params;
   }
 
+
+
+
+
   @Delete('/:userId')  //for deleting the index
   deleteUser(@Param() params: { userId: Number }) {
     return params;
