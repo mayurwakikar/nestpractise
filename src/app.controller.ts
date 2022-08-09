@@ -28,6 +28,10 @@ export class AppController {
   }
 
 
+
+
+
+
   @Get('/:userId')    //for getting  the user
   getUser(@Param() params: { userId: Number }) {
     return params;
